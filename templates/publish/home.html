@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Follow the progress</title>
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    {{training.current_distance}} / {{training.distance}}
-    <progress max="{{training.distance}}" value="{{training.current_distance}}"></progress>
+    <div id="content">
+        <progress max="{{training.distance}}" value="{{training.current_distance}}"></progress>
+    </div>
 </body>
 </html>
