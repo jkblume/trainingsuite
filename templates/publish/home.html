@@ -5,6 +5,7 @@
     <title>Follow the progress</title>
 </head>
 <body>
-
+    {{training.current_distance}} / {{training.distance}}
+    <progress max="{{training.distance}}" value="{{training.current_distance}}"></progress>
 </body>
 </html>
