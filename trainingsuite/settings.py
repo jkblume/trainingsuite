@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'publish',
+    'rest_framework',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -119,6 +120,10 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+REST_FRAMEWORK = {
+    'PAGE_SIZE': 10
+}
 
 
 # Static files (CSS, JavaScript, Images)
